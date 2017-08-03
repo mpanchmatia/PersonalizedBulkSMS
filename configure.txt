@@ -1,0 +1,6 @@
+1 IPv6=fe80::aaaa:bbbb:cccc:ffff%wlan0
+2 Port=7777
+3 Prefix=Jai SwamiNarayan
+4 How many message already sent? keep 0 in file at start. Counter File Name=counter.txt
+5 AddressBook File Name=JSN.csv
+6 Message.start with space=This Customized Bulk SMS is sent without using computer. - Manish Panchmatia
