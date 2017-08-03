@@ -27,7 +27,7 @@ Steps:
 3.6 The message. 
 
 The actual SMS conten will be formed as below
- <Prefix from configure.txt> <name from CSV file> <Message>
+ <<Prefix from configure.txt>> <<name from CSV file>> <<Message>>
 
 4. Customized the CSV file with your friends' name and number
 
