@@ -25,7 +25,7 @@ Steps:
 
 3.3 Use Prefix value as per your choice. E.g. "Jai Gurudev !" , "Jai SwamiNarayan !", "Hi !", "Hello !" etc.
 
-3.4 The file name to stroe 'sent SMS counter' is configurable. For the first time write 0 in the counter file. This feature is useful, in case you want to send 2000 SMS and daily you can send only 100 SMS. At the end of each execution, the counter value will be updated. Next day, the application will not send SMS again, it will start from next available entry. 
+3.4 The file name to stroe 'sent SMS counter' is configurable. For the first time write 0 in the counter file. This feature is useful, in case you want to send 2000 SMS and daily you can send only 100 SMS. At the end of each execution, the counter value will be updated. Next day, the application will not send SMS again to same set of people, it will start from next available entry. 
 
 3.5 Address book file name is also configurable.
 
@@ -40,3 +40,8 @@ The actual SMS conten will be formed as below
 5. Run Termux. Go to the path with cd command, where all the files are stored at your mobile. Run the command "tclsh SendSMS.tcl"
 
 Enjoy ... !
+
+Constrain: 
+
+1. SMS size limit is 160 character. However with this utility, first character is always " " (space) so one can send SMS with 159 character only.
+2. the mobile should have valid network interface up. So one needs to connect to WiFi or Cellular. The application does not use Internet. 
